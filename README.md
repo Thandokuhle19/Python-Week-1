@@ -1,5 +1,5 @@
 # Python-Week-1
-~Variable and Types:~
+_Variable and Types:_
 Variable -Basic unit of a program, assigned a value. 
 Equal sign (=) is used as an assignment operator.
 Variable names include upper and lower cases, including underscores, and usually begin with lowercases. It cannot begin with a number
@@ -8,7 +8,7 @@ There are several types of variable in python and they are: - Integers >> whole 
                                                             - Booleans (true or false values)
 The plus sign (+) is used to join characters, when working in strings, but it does not add strings or numbers. 
 
-~Data Structures:~
+_Data Structures:_
 Data Structures - allow for storage of a list of values in a single 
 One of the first data structure we will learn is a list. They contain a data type, which includes a list within a list.
 Length of a list is determined by using length function [which is len()]. Eg, myList = ["apple","banana","cherry"] 
@@ -21,6 +21,36 @@ Tuples cannot but modified once they have been declared. This means that they ar
 Tuples use round brackets. Eg, thistuple = ("apple","banana","cherry") 
                            print(thistuple)
 
- ~Operators:~
+ _Operators:_
 Operators: instructions that perform operations on variable and values. Familiar type operator is the arithmetic, used for mathematical calculations.
-Example of arithmetic operator are addition(+) for adding numbers together, multiplication(*) for mulitplying numbers together, exponents(**) raises a number to a specified power, division(/) returns a floating
+Example of arithmetic operator are addition(+) for adding numbers together, multiplication(*) for mulitplying numbers together, exponents(**) raises a number to a specified power, division(/) returns a floating-point value, even if the result is a whole number.
+Modulus operator is specific to programming and gives the remainder after division. Eg, 20 % 6, the remainder will be 2, meaning it will return two. 
+The addition operator for strings join, or combine two strings together, only working with two strings. Eg, 'string 1' + 'string 2', will show an output of 'string 1 string 2'.
+Whereas with multiplication operator, repeats a string a certain number of times, working with either a string or a number. Eg, string1*2, will show an output of string1string1.
+"And", "or", and "not" operate on boolean values. "And" returns true if both operators are true, "or" returns if at least one is true. "Not" denies the boolean.
+Membership operators: - "in" and "not in" >> check if value is present or not. "In" to check if number or string is present in a list or string.
+
+_Control Flow:_
+There are three types of control flow in programming: 
+    -If statement: Allows you to produce a block of code if that condition is met. 
+    - Else statement: Produces a block of code is that condition is false. 
+                   Example of an if and else statement: 
+                   a = 2 
+                   b = 5
+                   if a < b:
+                      print("a is smaller than b")   >> if the condition is met, it will produce the statement that is true.
+                   else:
+                       print("a is greater than b")  >> if the condition is false, it will produce the false statement.
+
+A for loop is used to constantly repeat a list or any repeatable item. Eg, fruits = ["apple","banana","grapes"]
+                                                                        for x in range (1,3):
+                                                                            print(fruits[x])
+A while loop keeps looping or keeps repeating until a cerain condition is false. You need to make sure that the condition in the loop becomes false, if not, it will loop forever.
+
+_Functions:_
+Function takes inputs and produces outputs.
+Defined by using "def" keyword, followed by the function name and arguments in parenthesis. 
+Eg, def my_function:
+        print("Hello from function")
+    my_function()
+
