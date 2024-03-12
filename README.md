@@ -56,4 +56,11 @@ Eg, def my_function:
 Function body is indented and contains code that performs the desired operation on the inputs, and the keyword "return" is used to specify the output.
 Functions can only take one argument, and may or may not return a value.
 
-_
+_Classes and Objects:_
+Classes help label and organise related collections. They are link object constructors, or a "blueprint" for creating objects.
+For example, we can create a class called dog, which has multiple functions and attributes, such as legs, a name, and bark.
+To define a class, we use an uppercase letter for the class name, we then define all functions and attributes inside the class definition.
+We begin by creating a special function called initialization, or "init" function.
+
+
+
