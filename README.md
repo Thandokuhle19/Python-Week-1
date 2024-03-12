@@ -62,5 +62,11 @@ For example, we can create a class called dog, which has multiple functions and 
 To define a class, we use an uppercase letter for the class name, we then define all functions and attributes inside the class definition.
 We begin by creating a special function called initialization, or "init" function.
 
+_Strings:_
+There are numerous tools to analyse and construct strings, and slicing is one of the most useful tools.
+Slicing is taking a portion of a string and returning it. 
 
+_Byte:_
+For bytes, it is done as ones and zeros, when computers store information.
+Bytes is used for streaming files or transmitting texts without knowing the encoding.
 
