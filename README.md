@@ -53,4 +53,7 @@ Defined by using "def" keyword, followed by the function name and arguments in p
 Eg, def my_function:
         print("Hello from function")
     my_function()
+Function body is indented and contains code that performs the desired operation on the inputs, and the keyword "return" is used to specify the output.
+Functions can only take one argument, and may or may not return a value.
 
+_
