@@ -11,7 +11,7 @@ The plus sign (+) is used to join characters, when working in strings, but it do
 _Data Structures:_
 Data Structures - allow for storage of a list of values in a single 
 One of the first data structure we will learn is a list. They contain a data type, which includes a list within a list.
-Length of a list is determined by using length function [which is len()]. Eg, myList = ["apple","banana","cherry"] ggh
+Length of a list is determined by using length function [which is len()]. Eg, myList = ["apple","banana","cherry"]
                                                                               x = len(myList) >> this will print out what is inside the list, in order.
 Set is similar to a lit, but differs in such that it contains unique elements and is declared by the use of curly braces. Eg, thisset = {"apple", "banana", "cherry"}
 print(thisset) >> this will print out whatever is inside the "thisset", in no particular order
