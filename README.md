@@ -1,4 +1,4 @@
-# Python-Week-1
+N# Python-Week-1
 _Variable and Types:_
 Variable -Basic unit of a program, assigned a value. 
 Equal sign (=) is used as an assignment operator.
@@ -24,7 +24,6 @@ Tuples use round brackets. Eg, thistuple = ("apple","banana","cherry")
  _Operators:_
  
 Operators: instructions that perform operations on variable and values. Familiar type operator is the arithmetic, used for mathematical calculations.
-
 Example of arithmetic operator are addition(+) for adding numbers together, multiplication(*) for mulitplying numbers together, exponents(**) raises a number to a specified power, division(/) returns a floating-point value, even if the result is a whole number.
 Modulus operator is specific to programming and gives the remainder after division. Eg, 20 % 6, the remainder will be 2, meaning it will return two. 
 The addition operator for strings join, or combine two strings together, only working with two strings. Eg, 'string 1' + 'string 2', will show an output of 'string 1 string 2'.
@@ -72,3 +71,11 @@ _Byte:_
 For bytes, it is done as ones and zeros, when computers store information.
 Bytes is used for streaming files or transmitting texts without knowing the encoding.
 
+_Lists:_
+append() method is a method used to add an item to the end of a list.
+Eg, when we have a list called "myList" with the values containing 1,2,3,4, we can append the value of 5. 
+We do this by typing myList.append(5), and it will print the myList.
+We use the insert() method if we want to insert an item at a specific position in that list.
+Eg, if we want to insert the value 10 at position 3 in myList, it will be myList.insert(3,10). It will print a new list in that specified position.
+These are the two ways to remove items from a list: 
+- remove(): removes an item based on its value, not its index. Eg, if we want to remove the integer 5 from myList  
