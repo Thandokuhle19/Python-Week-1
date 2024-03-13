@@ -22,7 +22,9 @@ Tuples use round brackets. Eg, thistuple = ("apple","banana","cherry")
                            print(thistuple)
 
  _Operators:_
+ 
 Operators: instructions that perform operations on variable and values. Familiar type operator is the arithmetic, used for mathematical calculations.
+
 Example of arithmetic operator are addition(+) for adding numbers together, multiplication(*) for mulitplying numbers together, exponents(**) raises a number to a specified power, division(/) returns a floating-point value, even if the result is a whole number.
 Modulus operator is specific to programming and gives the remainder after division. Eg, 20 % 6, the remainder will be 2, meaning it will return two. 
 The addition operator for strings join, or combine two strings together, only working with two strings. Eg, 'string 1' + 'string 2', will show an output of 'string 1 string 2'.
