@@ -72,10 +72,35 @@ For bytes, it is done as ones and zeros, when computers store information.
 Bytes is used for streaming files or transmitting texts without knowing the encoding.
 
 _Lists:_
+In this topic, we will dive deep into the methods of python.
 append() method is a method used to add an item to the end of a list.
 Eg, when we have a list called "myList" with the values containing 1,2,3,4, we can append the value of 5. 
 We do this by typing myList.append(5), and it will print the myList.
 We use the insert() method if we want to insert an item at a specific position in that list.
 Eg, if we want to insert the value 10 at position 3 in myList, it will be myList.insert(3,10). It will print a new list in that specified position.
 These are the two ways to remove items from a list: 
-- remove(): removes an item based on its value, not its index. Eg, if we want to remove the integer 5 from myList  
+- remove(): removes an item based on its value, not its index. Eg, if we want to remove the integer 5 from myList, we type myList.remove(5) and it prints myList.
+- pop(): removes and returns the items at the end of the list. Eg, if we write myList.pop() and then print myList, it will remove the last item of myList.
+- cpoy(): to make a copy of a list so that the changes of the one list do not affect the other.Eg, we have a list with values from 1 to 5 and we want a copy of it, we will type b = a.copy(). It will return a copy of that specified list, which is 'a' in this case, thus printing out values from 1 to 5.
+When we assign a list to a variable, the variable stores a reference not a copy of the list. Meaning, we need to modify the list through one variable hencefourth changes will show in other variable that reference the same list.
+
+_Tuples and Sets:_
+We will explain more of sets and tuples in this section.
+*Sets*
+As mentioned before, sets are defined by using curly brackets, like this {'a','b','c'}
+However, we can also define it by passing an iterable object in the constructor of the set class. We use it like this: mySet = set(('a','b','c'))
+We can create a list with some duplicates and de-deuplicate it by converting it to set and back again.
+Eg, thisSet = {'b', 'c', 'c'} 
+mySet = list(set(thisSet))
+print(mySet)
+The above code will print {'b','c'}, meaning myList passed its list to mySet and did not print the duplicates.
+To determine how many items a set has or the length of the set, we use the len() function. 
+Eg, mySet = {'b','c','c'}
+    print(len(mySet))  it will print the integer 3, and this is because there are three items in the list/set.
+We cannot access elements in a set using an index or slicing index. But, we can add elements to a set by using "add()" function and remove by using "discard" function.
+
+*Tuples*
+As mentioned before, tuples use parathesis insead of square brackets.
+So, tuples are indexed, that being said, the first item has index[0], the second item has index[1], etc,
+Tuples have a defined order, the oder does not change. We cannot change tuples, meaning we cannot add, change, or remove items once the tuple has been created. 
+They allow duplicates since tuples are indexed, and can have items with the same value.
