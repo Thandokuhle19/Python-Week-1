@@ -104,3 +104,15 @@ As mentioned before, tuples use parathesis insead of square brackets.
 So, tuples are indexed, that being said, the first item has index[0], the second item has index[1], etc,
 Tuples have a defined order, the oder does not change. We cannot change tuples, meaning we cannot add, change, or remove items once the tuple has been created. 
 They allow duplicates since tuples are indexed, and can have items with the same value.
+
+
+_Control Flow:_
+We have spoken about control flows, however, we will dive deep into them.
+This topic is important for writing most programs.
+In other programming languages there is switch statement. This statement analyses a series of values and runs the code instructions that correspond to the first true value.
+However, in python, there "replacements" for switch cases and they are:
+
+- Switch case using Dictionary mapping:
+
+- Using an If-else: Is used to determine whether a specific statment or block of statements. So, the block of statements will be performed or not, that is, whether a block of statements will be executed if a specific condition is true or not.
+- Using a class: we are using a class to create a switch method
