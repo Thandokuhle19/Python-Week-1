@@ -1,4 +1,4 @@
-N# Python-Week-1
+ Python-Week-1
 _Variable and Types:_
 Variable -Basic unit of a program, assigned a value. 
 Equal sign (=) is used as an assignment operator.
