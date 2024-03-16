@@ -123,3 +123,6 @@ However, in python, there "replacements" for switch cases and they are:
 
 We have a while loop as well. A while loop runs forever, to exit the loop, a condition has to be met, or we can use a break statement to exit the loop early. These condition will exit the loop and move on to the next line of code outside of the loop.
 If we want to skip over a certain lines within a loop, we can use the continue statement.
+When we use a for loop, we can declare a new variable, eg "item", so that we can hold the value for each element in your list as you repeat through.
+We can use statements like pass, continue, and break with the for loop.
+Pass can is used when the user wants to pass an empty code and/or when they are trying to avoid an error.
